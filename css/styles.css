@@ -836,6 +836,7 @@ header {
 
 .final-quality-guarantee ul li::marker {
     content: "\002714 \002002";
+    color: green;
 }
 
 @media (hover: hover) {
