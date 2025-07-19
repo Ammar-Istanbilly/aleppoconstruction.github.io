@@ -159,7 +159,7 @@ header {
 
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/AC-image-\(1\).jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/AC-image-\(1\).webp");
     background-color: grey;
     background-position: center;
     background-repeat: no-repeat;
@@ -695,11 +695,7 @@ header {
     align-items: center;
 }
 
-.contact-form button:hover {
-    color: black;
-    background-color: gold;
-    transition: 0.2s;
-}
+
 
 .contact-form button:active {
     transition: 0.1s;
@@ -803,10 +799,18 @@ header {
     top: 0.1rem;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url("/AC-resources/CheckCircle.svg");
+    background-image: url("/images/CheckCircle.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (hover: hover) {
+    .contact-form button:hover {
+        color: black;
+        background-color: gold;
+        transition: 0.2s;
+    }
 }
 
 @media (max-width: 1000px) {
