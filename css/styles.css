@@ -238,7 +238,7 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     color: white;
-    text-shadow: 0 0 0.25rem black;
+    text-shadow: 0 0 0.4rem black;
     margin: 2rem 0;
 }
 
@@ -340,6 +340,7 @@ header {
     margin: 1rem 0;
     color: #505050;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .image-grid {
@@ -548,6 +549,7 @@ header {
     row-gap: 1rem;
     font-size: 1.5rem;
     color: #525252;
+    text-align: justify;
 }
 
 .project-description :first-child {
